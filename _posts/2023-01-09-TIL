@@ -1,0 +1,82 @@
+---
+layout: post
+title: TIL 2023.01.09 - 2023.01.15
+---
+
+2023/01/09
+JavaScript와 TypeScript의 차이에 대해서 공부 후, 살짝 다른것이 무엇이고, TypeScript 디버깅하는 것에 대해서도 조금 공부했다
+오늘 저녁에는 유진이에게 미래계획에 대해서, 조금 더 업데이트를 할 예정이다
+그리고 오늘은 
+대학교 다시 한 번 정리후, 필요한 것 모두 정리 (오늘 끝내)
+https://uic.joinhandshake.com/stu/jobs/7339590?ref=preview-header-click&search_id=1a72d02e-8bdb-4bac-aa07-467d21b99fca
+C에 관한 공부. C++은 결국 C에서 왔고, 결국 같은 것. 그래서 처음에 배우기 수월하고, 나중에 어려운 부분은 다시 정말 제대로 해보자! 미리 예습도 좋을 것 같다.
+C was made to work with UNIX
+C provides originals, basics of other languages (Python, Java, JS, …)
+Header file: contains c function declarations, macro definitions. #으로 시작하면, preprocessor 가 먼저 소스파일을 확인해서 그 뒤에 라인들을 읽을 수 있는 것
+C의 마지막 부분은 항상 return statement. 보통 return 0 means successful termination, or exit status
+C의 first execution is the first line of main()
+printf library function sends formatted output to the screen
+%d supports integer types
+%f for float, %lf for double, %c for character
+scanf takes in input
+scanf(“%d”, &number) 이라고 하면 the number entered will be stored in the address of “number”
+Structure is a way to group several related items together. Each variable in a structure is called a member
+
+
+
+2023/01/10
+https://www.youtube.com/watch?v=ZM55pce2AkY
+이걸 보면, 요새 어떤 프론트엔드개발자가 집중해야 될 게 뭔지 알 수 있다
+그리고 오늘은 parking lot program 다음주 목요일까지 만들기로 했다
+I need to know about API, python api regarding MAPS
+Difference between C++ classes and C Structs! *
+USE CHATGPT
+
+
+
+2023/01/12
+요새 공부를 조금 게을리했다.
+Resume 끝내고, start applying for CPT
+파이썬 강의 두시간 듣기.
+The difference between C++ classes and C structs are _________
+zsh: command not found: python vscode 에러가 떠서 아침 두시간을 헤맸다. 하지만 구글 짱! Google, StackOverflow helped me solve it. Downloaded brew downloads missing package members for macOS
+리눅스가 정확히 뭐냐?
+Linux is not a programming language. Linux is an “operating system (OS)”. A software that manages the communication between a computer’s hardware and software. Python, C++ are programming languages used to write software that RUNS on OS like Linux.
+OS acts as an intermediary between hardware and programs and applications that run on the computer. OS provides a platform for other software to run on, by managing and allocating memory, processing power and I/O operations.
+Python~ List vs Tuple: Tuple is not fixable while list is.
+
+
+2023/01/13
+Linux 커맨드에 대해서 조금 배우고, 그 후 내 로컬에서 서버에 접속 하는 방법을 배웠다. 결국 새로운 터미널 윈도우는 내 로컬에 대한 것이고, 처음 만든 터미널에서 ssh 를 하면 서버에 접속하는것이다
+ssh means secure shell: provides secure encrypted connection between two hosts over an insecure network
+scp means secure copy: meaning it securely copies files or directories between two hosts 
+ls means: list the directories
+directory 는 폴더라고 생각해도 무난
+~ means: the home directory of the current user
+segmentation fault means I tried to access something that I do not have access to 
+to compile C code by myself, <gcc main.c> is used in the terminal. IDE의 run 버튼이 결국 저걸 하는것이다
+difference between terminal, console, shell? terminal = console 
+./a.out means “assembler output”. It is a typical command to output a C file. the <.> refers to the current directory and <a.out> is the default name for an executable file created by the compiler when there is no name specified. So this means, it is running executable file a.out in current directory
+argc means the number of arguments that were passed, argv is an array that stores actual arguments passed in the program
+atoi function transitions strings that are made of integer values and transitions the type to int
+ampersand and asterisks are NOT the opposite
+
+
+
+2023/01/14
+JSON means JavaScript Objective Notation. lightweight data interchange format in the type of key-value pairs. 
+how to find path? https://pypi.org/project/googletrans/
+https://stackoverflow.com/questions/64758319/python-cannot-install-googletrans
+API, Rest-API? 우선 interface 의 정의는: 사람과 사람, 사람과 기계, 기계와 기계가 서로와 소통할 수 있게 도와주는 연결다리. 어플리케이션간의 지정된 형식으로 request, response 하게 해준다
+쉽게 말해서, 기상청같은 곳에서 “지정된 형식"으로 우리가 그쪽에 필요한 정보를 요청하고, 답을 받는 것
+rest-API는 이 중 직관적으로 어떤 기능을 하는지 알 수 있게 작성된 API. HTTP를 사용
+한국 부동산 API; https://www.data.go.kr/data/3052442/openapi.do
+zillow APIl https://www.zillowgroup.com/developers/api/rentals/public-api-spec/
+
+
+
+2023/01/15
+(void *) means ~
+Finally created a GitHub blog. Github blogs are supported by Jekyll. So get familiar with Makdowns, etc. 
+https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html
+https://teddylee777.github.io/jekyll/Jekyll-%EC%82%AC%EC%9A%A9%EC%9D%84-%EC%9C%84%ED%95%9C-markdown-%EB%AC%B8%EB%B2%95
