@@ -1,0 +1,20 @@
+///
+post:
+
+
+
+///
+
+axios.get(): axios is a popular library for making HTTP requests in Node.js. The get method is used to make a GET request to a specified URL, and it returns a Promise.
+
+then() and catch(): These are methods that are called on a Promise. then is called when the Promise is resolved (i.e., the HTTP request was successful), and catch is called when the Promise is rejected (i.e., there was an error with the HTTP request).
+
+response.data: When axios.get resolves, it provides a response object. This object contains various information about the HTTP response, and data is the actual data returned by the server.
+
+console.log() and console.error(): These are methods provided by the console object in JavaScript. console.log is used to print information to the console (useful for debugging), and console.error is used to print error messages.
+
+require(): This is a built-in function in Node.js that's used to import modules. In this case, it's used to import the axios library so that you can use it in your script.
+
+async and await: These are keywords in JavaScript that are used to work with asynchronous operations like HTTP requests. async is used to declare an asynchronous function, and await is used to wait for a Promise to resolve or reject.
+
+
