@@ -1,9 +1,7 @@
-///
-post:
-
-
-
-///
+---
+layout: post
+title: "About Functions inside Trading Bot js file"
+---
 
 axios.get(): axios is a popular library for making HTTP requests in Node.js. The get method is used to make a GET request to a specified URL, and it returns a Promise.
 
